@@ -43,10 +43,8 @@ randNodesNew=[randNodesNew,destinationPoint];
 
 temp=stateNodes(:,1,:);
 
-
-
 %find path
-% [myPath]=findOptimumPath04(stateNodes,distToNeighborTable,distToDestinationTable);
+[myPath]=findOptimumPath04(stateNodes,distToNeighborTable,distToDestinationTable);
 % end
 
 
